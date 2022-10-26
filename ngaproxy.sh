@@ -1,6 +1,4 @@
 #!/bin/sh
-sudo timedatectl set-ntp 0
-sudo date --set='+1440 minutes'
 command_exists() {
 	command -v "$@" > /dev/null 2>&1
 }
